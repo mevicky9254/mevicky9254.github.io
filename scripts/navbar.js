@@ -30,10 +30,10 @@ let nav = document.querySelector('.navbar');
  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
  
  resumeBtnOnNavbar.onclick = () =>{
-     window.open("https://drive.google.com/file/d/1f5KsaH3LyEP8TBbAI-LZyHWa-AOwGeJ7/view?usp=share_link", '_blank', 'noreferrer');
+     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
  }
  resumeBtn.onclick = ()=>{
-     window.open("https://drive.google.com/file/d/1f5KsaH3LyEP8TBbAI-LZyHWa-AOwGeJ7/view?usp=share_link", '_blank', 'noreferrer');
+     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_linkgit", '_blank', 'noreferrer');
  }
  menuBtn.onclick = ()=>{
    navbar.classList.add("show");
