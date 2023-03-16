@@ -33,7 +33,7 @@ let nav = document.querySelector('.navbar');
      window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
  }
  resumeBtn.onclick = ()=>{
-     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_linkgit", '_blank', 'noreferrer');
+     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
  }
  menuBtn.onclick = ()=>{
    navbar.classList.add("show");
