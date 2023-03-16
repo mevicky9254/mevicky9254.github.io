@@ -1,0 +1,110 @@
+
+
+hr{
+    width: 70%;
+    margin: auto;
+}
+.skill{
+   
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    /* border: 1px solid blue; */
+    background-image: linear-gradient(rgba(77, 87, 87, 0.815), rgba(20, 20, 20, 0.856)),url(bgImage.jpg);
+}
+
+
+.skill-title{
+
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+     margin-top: 50px; 
+     color:rgba(10, 232, 240, 0.603);
+     font-weight: bolder;
+}
+
+.skill-logo-container{
+
+    width: 50%;
+    height: auto;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+    gap: 30px;
+
+
+
+    
+}
+.skill-logo-container>div{
+
+    /* border: 1px solid red; */
+    /* width: 15%;
+    he */
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-logo-container>div>img{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition:transform 1s;
+   
+}
+
+.skill-logo-container>div:hover img{
+
+    transform: scale(1.1);
+    /* border-radius: 32px; */
+}
+
+
+
+@media all and (min-width: 450px) and (max-width: 967px) {
+
+
+    .skill-logo-container{
+
+        width: 53%;
+        height: auto;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 5px;
+        gap: 20px;
+    
+    
+    
+        
+    }
+
+}
+
+    @media all and (min-width: 40px) and (max-width: 450px) {
+
+       
+        .skill-logo-container{
+            width: 60%;
+            border: 1px solid blue;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            height: auto;
+            
+        
+        
+        
+            
+        }
+    }
+
+
