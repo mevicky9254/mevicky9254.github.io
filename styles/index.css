@@ -19,7 +19,7 @@
     /* rgba(77, 87, 87, 0.815 */
 }
 
-.navbar{
+#nav-menu{
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -31,30 +31,30 @@
     margin: auto;
     padding: 0 30px;
 }
-.navbar.sticky{
+#nav-menu.sticky{
     background: #1b1b1b;
     padding: 10px 0;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     /* Check whether will remain or not */
 }
-.navbar .content{
+#nav-menu .content{
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* margin-left: 0px; */
 }
-.navbar .logo a{
+#nav-menu .logo a{
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
     text-decoration: none;
     transition: all ease .3s;
 }
-.navbar .logo a:hover{
+#nav-menu .logo a:hover{
     /* color: #009688; */
     color: #190a70;
 }
-.navbar .menu-list{
+#nav-menu .menu-list{
     display: inline-flex;
 
 }
@@ -135,42 +135,42 @@
     transition: all ease 2s;
 }
 
-.navbar{
+#nav-menu{
     position: fixed;
     width: 100%;
     z-index: 2;
     padding: 10px 0;
     transition: all 0.3s ease;
 }
-.content{
+#nav-menu.content{
     max-width: 1250px;
     margin: auto;
     padding: 0 30px;
 }
-.navbar.sticky{
+#nav-menu.sticky{
     background: #1b1b1b;
     padding: 10px 0;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     /* Check whether will remain or not */
 }
-.navbar .content{
+#nav-menu .content{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+#nav-menu .logo a{
     color: #080808;
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
     transition: all ease .3s;
 }
-.navbar .logo a:hover{
+#nav-menu .logo a:hover{
     /* color: #009688; */
     /* color: #92bcb5; */
     color: whitesmoke
 }
-.navbar .menu-list{
+#nav-menu .menu-list{
     display: inline-flex;
 }
 .menu-list li{
@@ -509,7 +509,7 @@ span{
     .icon.hide{
         display: none;
     }
-    .navbar .menu-list{
+    #nav-menu .menu-list{
         border: 1px solid red;
         position: fixed;
         height: 100vh;
@@ -525,7 +525,7 @@ span{
        background: rgb(208, 226, 253);
         transition: all 0.3s ease;
     }
-    .navbar.show .menu-list{
+    #nav-menu .show .menu-list{
         /* border: 1px solid black; */
         left: 0%;
         display: grid;
@@ -533,7 +533,7 @@ span{
 
 
     }
-    .navbar .menu-list li{
+    #nav-menu .menu-list li{
         border: 1px solid black;
         /* align-items: center; */
         /* margin-top: 45px; */
@@ -546,16 +546,16 @@ span{
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .navbar .menu-list li:hover{
+    #nav-menu .menu-list li:hover{
         background:  #2bcdd3;;
     }
 
-    .navbar .menu-list li a{
+    #nav-menu .menu-list li a{
         font-size: 22px;
         margin-left: -100%;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    .navbar.show .menu-list li a{
+    #nav-menu .show .menu-list li a{
         margin-left: 0px;
     }
 

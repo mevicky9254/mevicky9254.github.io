@@ -1,4 +1,4 @@
-let nav = document.querySelector('.navbar');
+let nav = document.querySelector('#nav-menu');
 
  changenavBack();
 
@@ -17,14 +17,14 @@ let nav = document.querySelector('.navbar');
 
 
  const body = document.querySelector("body");
- const navbar = document.querySelector(".navbar");
+ const navbar = document.querySelector("#nav-menu");
  const menuBtn = document.querySelector(".menu-btn");
  const cancelBtn = document.querySelector(".cancel-btn");
- const cancelBtn1 = document.querySelector(".home");
- const cancelBtn2 = document.querySelector(".about_me");
- const cancelBtn3 = document.querySelector(".skills");
- const cancelBtn4 = document.querySelector(".projects");
- const cancelBtn5 = document.querySelector(".contact");
+ const cancelBtn1 = document.querySelector("#home");
+ const cancelBtn2 = document.querySelector("#about");
+ const cancelBtn3 = document.querySelector("#skills");
+ const cancelBtn4 = document.querySelector("#projects");
+ const cancelBtn5 = document.querySelector("#contact");
  const cancelBtn6 = document.querySelector(".resume");
  const resumeBtn = document.querySelector(".resumeButton");
  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
