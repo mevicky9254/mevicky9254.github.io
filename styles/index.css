@@ -124,7 +124,7 @@
 
 
 
-.banner{
+ .banner{
     width: 100%;
     /* height: 100vh; */
     min-height: 100vh;
@@ -158,21 +158,21 @@
     align-items: center;
     justify-content: space-between;
 }
-#nav-menu .logo a{
+#nav-menu.logo a{
     color: #080808;
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
     transition: all ease .3s;
 }
-#nav-menu .logo a:hover{
-    /* color: #009688; */
-    /* color: #92bcb5; */
+#nav-menu.logo a:hover{
+    color: #009688; 
+    color: #92bcb5; 
     color: whitesmoke
 }
-#nav-menu .menu-list{
-    display: inline-flex;
-}
+    #nav-menu .menu-list{
+    display: inline-flex; 
+} 
 .menu-list li{
     list-style: none;
     position: relative;
@@ -238,7 +238,7 @@
     top: 20px;
     color: #080808;
 }
-.contentBelowNav{
+#home{
     color: rgb(10, 10, 10);
     width: 100%;
     text-align: center;
@@ -288,16 +288,16 @@
     text-align: center;
     align-items: center;
 }
-.contentBelowNav h3{
+  #home h3{
     font-size: 40px;
     /* margin-top: 80px; */
     /* margin-top: 50px; */
 }
-.contentBelowNav h4{
+#home h4{
     font-size: 30px;
     margin-top: 10px;
 }
-.contentBelowNav p{
+#home p{
     font-size: 17px;
     margin-top: 60px;
     /* margin: 20px auto; */
@@ -525,7 +525,7 @@ span{
        background: rgb(208, 226, 253);
         transition: all 0.3s ease;
     }
-    #nav-menu .show .menu-list{
+    #nav-menu.show .menu-list{
         /* border: 1px solid black; */
         left: 0%;
         display: grid;
@@ -555,7 +555,7 @@ span{
         margin-left: -100%;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    #nav-menu .show .menu-list li a{
+    #nav-menu.show .menu-list li a{
         margin-left: 0px;
     }
 
@@ -624,7 +624,7 @@ span{
         .innerContent h4{
             font-size: 20px;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 15px;
         }
     }
@@ -650,7 +650,7 @@ span{
         }
     }
     @media (max-width: 380px) {
-        .navbar .logo a{
+        #nav-menu .logo a{
             font-size: 27px;
         }
         .innerContent h3{
@@ -728,7 +728,7 @@ span{
         .banner{
             height: fit-content;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 17.5px;
             line-height: 1.7;
         }
@@ -738,7 +738,7 @@ span{
         .banner{
             height: 80vh;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 16.5px;
             line-height: 1.7;
         }
@@ -748,7 +748,7 @@ span{
         .banner{
             height: 100vh;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 16.5px;
             line-height: 1.7;
         }
@@ -764,7 +764,7 @@ span{
         .banner{
             height: 100vh;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 17px;
             line-height: 1.8;
         }
@@ -778,7 +778,7 @@ span{
         .banner{
             height: fit-content;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 23px;
             line-height: 1.8;
         }
@@ -788,7 +788,7 @@ span{
             width: 250px;
             height: 242px;
         }
-        .contentBelowNav h3{
+        #home h3{
             margin-top: 40px;
             /* margin-top: 50px; */
         }
@@ -817,7 +817,7 @@ span{
         .banner{
             height: 105vh;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 20px;
             line-height: 1.6;
         }
@@ -833,7 +833,7 @@ span{
         .banner{
             height: 117vh;
         }
-        .contentBelowNav p{
+        #home p{
             font-size: 14px;
             line-height: 1.5;
         }

@@ -20,11 +20,11 @@ let nav = document.querySelector('#nav-menu');
  const navbar = document.querySelector("#nav-menu");
  const menuBtn = document.querySelector(".menu-btn");
  const cancelBtn = document.querySelector(".cancel-btn");
- const cancelBtn1 = document.querySelector("#home");
- const cancelBtn2 = document.querySelector("#about");
- const cancelBtn3 = document.querySelector("#skills");
- const cancelBtn4 = document.querySelector("#projects");
- const cancelBtn5 = document.querySelector("#contact");
+ const cancelBtn1 = document.querySelector(".nav-link-about");
+ const cancelBtn2 = document.querySelector(".nav-link-about");
+ const cancelBtn3 = document.querySelector(".nav-link-skills");
+ const cancelBtn4 = document.querySelector(".nav-link-projects");
+ const cancelBtn5 = document.querySelector(".nav-link-contacts");
  const cancelBtn6 = document.querySelector(".resume");
  const resumeBtn = document.querySelector(".resumeButton");
  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
@@ -38,7 +38,9 @@ let nav = document.querySelector('#nav-menu');
  menuBtn.onclick = ()=>{
    navbar.classList.add("show");
    menuBtn.classList.add("hide");
-   body.classList.add("disabled");
+    body.classList.add("disabled");
+
+
  }
  cancelBtn.onclick = ()=>{
    body.classList.remove("disabled");

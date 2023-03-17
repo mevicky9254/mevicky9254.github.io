@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/skill.css">
     <link rel="stylesheet" href="styles/aboutme.css">
+    <link rel="stylesheet" href="styles/tools.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 
                 <div class="logo">
 
-                    <a id="home" href="#">HOME</a>
+                    <a class="nav-link-home" href="#home">HOME</a>
                 </div>
 
                 <ul class="menu-list">
@@ -34,10 +35,10 @@
                         <i class="fas fa-times"></i>
                     </div>
                     <!-- <li><a  class="home" href="#">Home</a></li> -->
-                    <li><a class="nav-link-home" href="#">About Me</a></li>
-                    <li><a class="nav-link-skills" href="#to_stop_for_skills">Skills</a></li>
-                    <li><a class="nav-link-projects" href="#projects_top_section">Projects</a></li>
-                    <li><a class="nav-link-contact" href="#contact_top_section">Contact</a></li>
+                    <li><a class="nav-link-about" href="#home">About Me</a></li>
+                    <li><a class="nav-link-skills" href="#skills">Skills</a></li>
+                    <li><a class="nav-link-projects" href="#projects">Projects</a></li>
+                    <li><a class="nav-link-contact" href="#contact">Contact</a></li>
                     <li id="resumeBtnOnNavbar"><a class="nav-link-resume"
                             href="https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link"
                             download>Resume <i class='far fa-arrow-alt-circle-down'></i></a></li>
@@ -49,7 +50,7 @@
             </div>
         </nav>
 
-        <div class="contentBelowNav">
+        <div id="home">
             <div class="innerContent">
 
                 <div class="innerContentinner">
@@ -61,7 +62,7 @@
                     </div>
 
                     <div id="HomePageImg">
-                        <img src="images/profile-picture.jpg" alt="">
+                        <img class="home-img" src="images/profile-picture.jpg" alt="">
                     </div>
 
 
@@ -118,28 +119,67 @@
 
         <div class="skill-logo-container">
 
-            <div><img src="images/Java.png" alt=""></div>
-            <div><img src="images/mysql.png" alt=""></div>
-            <div><img src="images/Javascript.png" alt=""></div>
-            <div><img src="images/html.png" alt=""></div>
-            <div><img src="images/spring.png" alt=""></div>
-            <div><img src="images/c++.png" alt=""></div>
-            <div><img src="images/Hibernate.png" alt=""></div>
-            <div><img src="images/CSS.png" alt=""></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/Java.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card" ><img class="skills-card-img" src="images/mysql.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/Javascript.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/html.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/spring.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/c++.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/Hibernate.png" alt=""><p class="skills-card-name"></p></div>
+            <div class="skills-card"><img class="skills-card-img" src="images/CSS.png" alt=""><p class="skills-card-name"></p></div>
 
         </div>
 
 
-    </div>
-
-
-    <!-- about me -->
-
-    <div class="about-me">
-
+       
 
 
     </div>
+
+
+    <!-- tools -->
+
+   
+    <div class="tools"> 
+
+        <div class="tools-title">
+            <h1>TOOLS</h1>
+
+        </div>
+     
+        <div class="tool-logo-container">
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+        
+
+
+  </div>
+
+<!-- ...............Tools................eneded......... -->
+
+
+
+
+
+<!-- ....................................PROJECT SECTION>>>>>>>>>>>>>>>>>>>>>>>>. -->
+
+<div id="projects">
+
+
+
+
+</div>
+
+<!-- ....................................PROJECT SECTION ENDED>>>>>>>>>>>>>>>>>>>>>>>>. -->
+
+
+
 
 
 </body>
