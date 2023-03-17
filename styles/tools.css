@@ -1,23 +1,26 @@
 .tools{
     width: 100%;
     height: 300px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    border: 1px solid rgb(216, 231, 226);;
+    background-color: rgb(216, 231, 226);
 }
 
 .tools-title{
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     margin: auto;
     margin-top: 40px;
     text-align: center;
     font-weight: bold;
-    color:rgb(226, 233, 233);
+    color:black
+
 }
 
 .tool-logo-container{
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 150px;
     width: 50%;
     margin: auto;

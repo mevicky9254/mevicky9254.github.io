@@ -44,11 +44,13 @@
     /* margin-left: 0px; */
 }
 #nav-menu .logo a{
-    color: #ffffff;
-    font-size: 30px;
+   color: #080808;
+
+    font-size: 25px;
     font-weight: 400;
     text-decoration: none;
     transition: all ease .3s;
+    font-weight: bolder;
 }
 #nav-menu .logo a:hover{
     /* color: #009688; */
