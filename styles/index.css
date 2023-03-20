@@ -401,7 +401,24 @@
 {
     color: #e4405f;
 } */
-.resumeButton,.resumeDownloadButton{
+#resume-button-1,.resumeDownloadButton{
+    width: 200px;
+    padding: 13px 0;
+    text-align: center;
+    /* margin-top:  20px; */
+    border-radius: 25px;
+    font-weight: 550;
+    font-size: 15.5px;
+    /* border: 2px solid #009688; */
+    border: 2px solid #92bcb5;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+#resume-button-2,.resumeDownloadButton{
     width: 200px;
     padding: 13px 0;
     text-align: center;
@@ -429,13 +446,22 @@ span{
     bottom: 0;
     transition: 0.5s;
 }
-.resumeButton:hover span{
+#resume-button-1:hover span{
+    width: 100%;
+}
+
+#resume-button-2:hover span{
     width: 100%;
 }
 .resumeDownloadButton:hover span{
     width: 100%;
 }
-.resumeButton:hover{
+#resume-button-1:hover{
+    border: none;
+    color: black;
+}
+
+#resume-button-2:hover{
     border: none;
     color: black;
 }
@@ -609,7 +635,11 @@ span{
             display: grid;
             margin-top: -25px;
         }
-        .resumeButton{
+        #resume-button-1{
+            width: 97%;
+        }
+
+        #resume-button-2{
             width: 97%;
         }
     }
@@ -715,7 +745,11 @@ span{
         #iconHolder ul{
             gap: 10px;
         }
-        .resumeButton{
+        #resume-button-1{
+            width: 95%;
+        }
+
+        #resume-button-2{
             width: 95%;
         }
     }
@@ -808,7 +842,13 @@ span{
             line-height: calc(70px - 12px);
             font-size: 28px;
         }
-        .resumeButton{
+        #resume-button-1{
+            width: 280px;
+            height: 65px;
+            font-size: 24px;
+        }
+
+        #resume-button-2{
             width: 280px;
             height: 65px;
             font-size: 24px;

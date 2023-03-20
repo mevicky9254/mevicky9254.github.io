@@ -20,21 +20,28 @@ let nav = document.querySelector('#nav-menu');
  const navbar = document.querySelector("#nav-menu");
  const menuBtn = document.querySelector(".menu-btn");
  const cancelBtn = document.querySelector(".cancel-btn");
- const cancelBtn1 = document.querySelector(".nav-link-about");
- const cancelBtn2 = document.querySelector(".nav-link-about");
- const cancelBtn3 = document.querySelector(".nav-link-skills");
- const cancelBtn4 = document.querySelector(".nav-link-projects");
- const cancelBtn5 = document.querySelector(".nav-link-contacts");
- const cancelBtn6 = document.querySelector(".resume");
+ const home = document.querySelector(".nav-link-about");
+ const about = document.querySelector(".nav-link-about");
+ const skills = document.querySelector(".nav-link-skills");
+ const projects = document.querySelector(".nav-link-projects");
+ const contacts = document.querySelector(".nav-link-contacts");
+ const resume_on_nav = document.querySelector("#nav-link-resume");
  const resumeBtn = document.querySelector(".resumeButton");
- const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
+
+
+
  
- resumeBtnOnNavbar.onclick = () =>{
-     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
- }
- resumeBtn.onclick = ()=>{
-     window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
- }
+//  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
+ 
+//  resumeBtnOnNavbar.onclick = () =>{
+//     //  window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
+//  }
+//  resumeBtn.onclick = ()=>{
+//     //  window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
+//  }
+
+
+
  menuBtn.onclick = ()=>{
    navbar.classList.add("show");
    menuBtn.classList.add("hide");
@@ -48,37 +55,37 @@ let nav = document.querySelector('#nav-menu');
    menuBtn.classList.remove("hide");
  }
 
-  cancelBtn1.onclick = ()=>{
+  home.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");
  }
 
- cancelBtn2.onclick = ()=>{
+ about.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");
  }
 
-  cancelBtn3.onclick = ()=>{
+  skills.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");
  }
 
- cancelBtn4.onclick = ()=>{
+ projects.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");
  }
 
- cancelBtn5.onclick = ()=>{
+ contacts.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");
  }
 
- cancelBtn6.onclick = ()=>{
+ resume_on_nav.onclick = ()=>{
    body.classList.remove("disabled");
    navbar.classList.remove("show");
    menuBtn.classList.remove("hide");

@@ -20,7 +20,7 @@
 }
 
 #projects {
-    width: 70%;
+    width: 80%;
     /* height: 900px; */
     margin-bottom: 100px;
     /* border: 1px solid blue; */
@@ -81,14 +81,14 @@ margin-right: 7px;
 
 
     #projects {
-        width: 85%;
+        width: 70%;
         /* height: 900px; */
         margin-bottom: 100px;
         /* border: 1px solid blue; */
         margin: auto;
         margin-top: 30px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 30px;
     }
 
