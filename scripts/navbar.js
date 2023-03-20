@@ -30,7 +30,7 @@ let nav = document.querySelector('#nav-menu');
 
 
 
- 
+
 //  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
  
 //  resumeBtnOnNavbar.onclick = () =>{
@@ -79,14 +79,14 @@ let nav = document.querySelector('#nav-menu');
    menuBtn.classList.remove("hide");
  }
 
- contacts.onclick = ()=>{
-   body.classList.remove("disabled");
-   navbar.classList.remove("show");
-   menuBtn.classList.remove("hide");
- }
+//  contacts.onclick = ()=>{
+//    body.classList.remove("disabled");
+//    navbar.classList.remove("show");
+//    menuBtn.classList.remove("hide");
+//  }
 
- resume_on_nav.onclick = ()=>{
-   body.classList.remove("disabled");
-   navbar.classList.remove("show");
-   menuBtn.classList.remove("hide");
- }
+//  resume_on_nav.onclick = ()=>{
+//    body.classList.remove("disabled");
+//    navbar.classList.remove("show");
+//    menuBtn.classList.remove("hide");
+//  }
