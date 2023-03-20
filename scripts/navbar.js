@@ -20,13 +20,13 @@ let nav = document.querySelector('#nav-menu');
  const navbar = document.querySelector("#nav-menu");
  const menuBtn = document.querySelector(".menu-btn");
  const cancelBtn = document.querySelector(".cancel-btn");
- const home = document.querySelector(".nav-link-about");
- const about = document.querySelector(".nav-link-about");
- const skills = document.querySelector(".nav-link-skills");
- const projects = document.querySelector(".nav-link-projects");
- const contacts = document.querySelector(".nav-link-contacts");
- const resume_on_nav = document.querySelector("#nav-link-resume");
- const resumeBtn = document.querySelector(".resumeButton");
+ const home = document.querySelector(".nav-link.about");
+ const about = document.querySelector(".nav-link.about");
+ const skills = document.querySelector(".nav-link.skills");
+ const projects = document.querySelector(".nav-link.projects");
+ const contacts = document.querySelector(".nav-link.contact");
+ const resume_on_nav = document.querySelector(".nav-link.resume");
+ const resumeBtn = document.querySelector("#resume-button-1");
 
 
 
@@ -79,14 +79,14 @@ let nav = document.querySelector('#nav-menu');
    menuBtn.classList.remove("hide");
  }
 
-//  contacts.onclick = ()=>{
-//    body.classList.remove("disabled");
-//    navbar.classList.remove("show");
-//    menuBtn.classList.remove("hide");
-//  }
+ contacts.onclick = ()=>{
+   body.classList.remove("disabled");
+   navbar.classList.remove("show");
+   menuBtn.classList.remove("hide");
+ }
 
-//  resume_on_nav.onclick = ()=>{
-//    body.classList.remove("disabled");
-//    navbar.classList.remove("show");
-//    menuBtn.classList.remove("hide");
-//  }
+ resume_on_nav.onclick = ()=>{
+   body.classList.remove("disabled");
+   navbar.classList.remove("show");
+   menuBtn.classList.remove("hide");
+ }
