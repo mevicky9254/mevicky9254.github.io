@@ -695,6 +695,12 @@ span{
             font-size: 40px;
         }
     }
+    @media (max-width: 388px) {
+
+        .section_container h2{
+            font-size: 20px;
+        }
+    }
     @media (max-width: 345px) {
         .innerContent h3{
             font-size: 23px;
