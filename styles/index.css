@@ -117,12 +117,15 @@
     font-size: 20px;
     cursor: pointer;
     display: none;
+    
 }
 .menu-list .cancel-btn{
     position: absolute;
     right: 30px;
     top: 20px;
+    
 }
+
 
 
 
@@ -238,7 +241,7 @@
     position: absolute;
     right: 30px;
     top: 20px;
-    color: #080808;
+    color: #e9dddd;
 }
 #home{
     color: rgb(10, 10, 10);
@@ -537,8 +540,11 @@ span{
     .icon.hide{
         display: none;
     }
+
+
+
     #nav-menu .menu-list{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -550,9 +556,13 @@ span{
         text-align: center;
         /* background: #222; */
         /* background: #fff; */
-       background: rgb(208, 226, 253);
+       /* background: rgb(2, 36, 87); */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgb(10, 0, 0)),url(bgImage.jpg); 
         transition: all 0.3s ease;
     }
+
+
+
     #nav-menu.show .menu-list{
         /* border: 1px solid black; */
         left: 0%;
@@ -562,7 +572,7 @@ span{
 
     }
     #nav-menu .menu-list li{
-        border: 1px solid black;
+        border: 1px solid white;
         /* align-items: center; */
         /* margin-top: 45px; */
         border-radius: 5px;
@@ -573,6 +583,7 @@ span{
         padding-right: 12px;
         padding-top: 5px;
         padding-bottom: 5px;
+        background: rgb(76, 115, 173);
     }
     #nav-menu .menu-list li:hover{
         background:  #2bcdd3;;

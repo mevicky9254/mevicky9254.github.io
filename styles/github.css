@@ -36,6 +36,8 @@
 
 #github-top-langs{
     width: 40%;
+    
+    
 }
 
 
@@ -47,11 +49,13 @@
 }
     #github-top-langs{
         width: 70%;
+       
         margin-bottom: -10px;
     }
 
     #github-stats-card{
         width: 90%;
+        
     }
 
     #github-streak-stats{
