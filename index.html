@@ -14,9 +14,14 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/skill.css">
     <link rel="stylesheet" href="styles/github.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <!-- <link rel="stylesheet" href="styles/gitcalander.css"> -->
     
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/project.css">
+
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
 </head>
 
 <body>
@@ -265,11 +270,11 @@
 
 </div>
 
-<div id="calendar">
+<div id="calendar" style="width:100%; margin-bottom: 50px;">
     <h1 style="color: black; font-family: Poppins, sans-serif; text-align: center; " ; class="calci ">GITHUB CALANDER</h1>
-    <div class="react-activity-calendar calendar ">
+    <div class="react-activity-calendar">
         <!-- Loading stuff -->
-    <img src=""  alt="vikki-kumar">
+    <!-- <img src=""  alt="vikki-kumar"> -->
     </div>
 </div>
 
@@ -278,7 +283,36 @@
 
 
 
-<div id="contact"></div>
+<section id="contact">
+   <div id="contact_title"><h2>Contact Me</h2></div> 
+    <form id="contact-form" method="post" action="#">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+    <div class="contact-info">
+      <p>Feel free to contact me through:</p>
+      <ul>
+        <li><a href="#" id="contact-email"><i class="fa fa-envelope"></i> Email</a></li>
+        <li><a href="#" id="contact-phone"><i class="fa fa-phone"></i> Phone</a></li>
+        <li><a href="#" id="contact-github"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="#" id="contact-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+  
 
 
 </body>
@@ -290,3 +324,7 @@
 
 
 <script src="scripts/navbar.js"></script>
+<script src="scripts/contact.js"></script>
+
+<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
+<!-- <script src="scripts/gitStatsandCalendar.js"></script> -->

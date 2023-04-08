@@ -1,0 +1,150 @@
+#contact {
+    padding: 20px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #contact form {
+    margin-bottom: 20px;
+  }
+  
+  #contact .form-group {
+    margin-bottom: 10px;
+  }
+  
+  #contact .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #contact .form-group input,
+  #contact .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  #contact .form-group button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+  }
+  
+  #contact .form-group button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #contact .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #contact .contact-info p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #contact .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #contact .contact-info li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #contact .contact-info a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #contact .contact-info i {
+    margin-right: 5px;
+  }
+  
+  #contact .contact-info a:hover {
+    color: #3e8e41;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #contact form {
+      width: 60%;
+      margin-right: 20px;
+    }
+    #contact .contact-info {
+      width: 30%;
+      text-align: left;
+    }
+    #contact .form-group {
+      margin-right: 10px;
+    }
+  }
+
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #contact h2 {
+      text-align: left;
+    }
+    #contact form {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 20px;
+    }
+    #contact .contact-info {
+      text-align: left;
+    }
+    #contact .form-group {
+      width: 48%;
+      margin-right: 2%;
+      margin-bottom: 10px;
+    }
+    #contact .form-group:last-child {
+      margin-right: 0;
+    }
+  }
+
+
+
+
+
+  @media screen and (min-width: 768px) {
+    #contact h2 {
+      text-align: left;
+    }
+    #contact form {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 20px;
+    }
+    #contact .contact-info {
+      text-align: left;
+    }
+    #contact .form-group {
+      width: 48%;
+      margin-right: 2%;
+      margin-bottom: 10px;
+    }
+    #contact .form-group:last-child {
+      margin-right: 0;
+    }
+  }
