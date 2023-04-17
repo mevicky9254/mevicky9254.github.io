@@ -5,16 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <title>Vikki Kumar</title>
 
-    <script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
-
-<link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -24,7 +20,7 @@
     <link rel="stylesheet" href="styles/skill.css">
     <link rel="stylesheet" href="styles/github.css">
     <link rel="stylesheet" href="styles/contact.css">
-    <!-- <link rel="stylesheet" href="styles/gitcalander.css"> -->
+   
     
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/project.css">
@@ -109,12 +105,12 @@
 
                     <div id="resumeButtons">
                         <div>
-                         <a href="https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link"><button id="resume-button-1" type="button"><span></span>View Resume</button></a>   
+                         <a href="https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link"><button id="resume-button-1" type="button"><span class="span"></span>View Resume</button></a>   
                          <!-- class="resumeButton" -->
                         </div>
                         <div>
                             <a href="https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link"
-                                download=""target="_blank"><button id="resume-button-2" type="button"><span></span>Download
+                                download=""target="_blank"><button id="resume-button-2" type="button"><span class="span"></span>Download
                                     Resume</button></a>
                                     <!-- class="resumeButton" -->
                         </div>
@@ -260,23 +256,34 @@
 
 
 
-<!-- GitHub statistics -->
 
-<div class="react-activity-calendar calendar">
-    <!-- GitHub activity calendar goes here -->
+
+
+
+<div class="gitdiv">
+
+    <div class="react-activity-calendar calendar">
+   
+
+    </div>
   
+    
+  
+  
+  
+  
+  <div class="github-streak">
+      <img class="git-img" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=mevicky9254&theme=dark" alt="GitHub Streak Stats">
+  </div>
+  
+  <div class="github-top">
+      <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mevicky9254&layout=compact&theme=dark" alt="GitHub Top Languages">
+  </div>
+  
+  <div class="github-stats">
+      <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=mevicky9254&show_icons=true&theme=dark" alt="GitHub Stats Card">
   </div>
 
-<div class="github-streak">
-    <img class="git-img" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=mevicky9254&theme=dark" alt="GitHub Streak Stats">
-</div>
-
-<div class="github-top">
-    <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mevicky9254&layout=compact&theme=dark" alt="GitHub Top Languages">
-</div>
-
-<div class="github-stats">
-    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=mevicky9254&show_icons=true&theme=dark" alt="GitHub Stats Card">
 </div>
 
 
@@ -285,35 +292,10 @@
 
 
 
-<!-- <div id="stats">
-    <div id="Github_title"><h1 class="title">GITHUB STATS</h1></div>
-    
-    <div id="githubstatsflex">
-        <div id="statsimg ">
-            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mevicky9254&lans-count=4&show_icons=true&theme=gruvbox " alt=" ">
-        </div>
 
-        <div id="statsimg1">
-            <div id="statssecondcolumn">
-                  
-                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=mevicky9254&show_icons=true&theme=gruvbox " alt=" ">
-               
-               
-                <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=mevicky9254&show_icons=true&theme=gruvbox " alt=" ">
-              
-            </div>
-        </div>
-    </div>
 
-</div> -->
 
-<!-- <div id="calendar" style="width:100%; margin-bottom: 50px;">
-    <h1 style="color: black; font-family: Poppins, sans-serif; text-align: center; " ; class="calci ">GITHUB CALANDER</h1>
-    <div class="react-activity-calendar">
-       
-    
-    </div>
-</div> -->
+
 
 
 <!-- ---------------------------------------Github Ended ...>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
@@ -363,8 +345,10 @@
 <script src="scripts/navbar.js"></script>
 <script src="scripts/contact.js"></script>
 
-<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
-<!-- <script src="scripts/gitStatsandCalendar.js"></script> -->
+<script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+  ></script>
+  
 
 <script>
     GitHubCalendar(".calendar", "mevicky9254");
