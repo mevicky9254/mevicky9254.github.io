@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikki Kumar</title>
 
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -248,7 +257,35 @@
 
 <!-- ---------------------------------------Github STARTED ...>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
 
-<div id="stats">
+
+
+
+<!-- GitHub statistics -->
+
+<div class="react-activity-calendar calendar">
+    <!-- GitHub activity calendar goes here -->
+  
+  </div>
+
+<div class="github-streak">
+    <img class="git-img" id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=mevicky9254&theme=dark" alt="GitHub Streak Stats">
+</div>
+
+<div class="github-top">
+    <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mevicky9254&layout=compact&theme=dark" alt="GitHub Top Languages">
+</div>
+
+<div class="github-stats">
+    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=mevicky9254&show_icons=true&theme=dark" alt="GitHub Stats Card">
+</div>
+
+
+
+
+
+
+
+<!-- <div id="stats">
     <div id="Github_title"><h1 class="title">GITHUB STATS</h1></div>
     
     <div id="githubstatsflex">
@@ -268,15 +305,15 @@
         </div>
     </div>
 
-</div>
+</div> -->
 
-<div id="calendar" style="width:100%; margin-bottom: 50px;">
+<!-- <div id="calendar" style="width:100%; margin-bottom: 50px;">
     <h1 style="color: black; font-family: Poppins, sans-serif; text-align: center; " ; class="calci ">GITHUB CALANDER</h1>
     <div class="react-activity-calendar">
-        <!-- Loading stuff -->
-    <!-- <img src=""  alt="vikki-kumar"> -->
+       
+    
     </div>
-</div>
+</div> -->
 
 
 <!-- ---------------------------------------Github Ended ...>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
@@ -328,3 +365,9 @@
 
 <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
 <!-- <script src="scripts/gitStatsandCalendar.js"></script> -->
+
+<script>
+    GitHubCalendar(".calendar", "mevicky9254");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "mevicky9254", { responsive: true });
+</script>
