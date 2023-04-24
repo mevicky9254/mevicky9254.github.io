@@ -1,5 +1,5 @@
-/* body{
-  /* background-color:   rgba(77, 87, 87, 0.815); */
+
+  
 
 
 hr{
@@ -15,7 +15,12 @@ hr{
     padding-bottom: 50px;
     /* margin-top: 5px; */
     /* border: 1px solid blue; */
-    background-image: linear-gradient(rgba(77, 87, 87, 0.815), rgba(20, 20, 20, 0.856)),url(bgImage.jpg);
+    /* background-image: linear-gradient(rgba(77, 87, 87, 0.815), rgba(20, 20, 20, 0.856)),url(bgImage.jpg); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.815), rgba(5, 5, 5, 0.993)),url(bgImage.jpg) */
+    background-image: linear-gradient(rgb(10, 0, 0), rgb(0, 0, 0)),url(bgImage.jpg); 
+    background-size: cover;
+    background-position: center;
+    transition: all ease 2s;
 }
 
 

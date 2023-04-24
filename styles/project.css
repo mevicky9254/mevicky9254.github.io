@@ -6,9 +6,13 @@
     /* border: 1px solid rgb(216, 231, 226);; */
     /* border: 1px solid red; */
     margin: auto;
-    background-color: rgb(216, 231, 226);
+    /* background-color: rgb(216, 231, 226); */
     padding: 15px;
-  
+    background-image: linear-gradient(rgba(10, 0, 0), rgb(10, 0, 0)),url(bgImage.jpg); 
+    background-size: cover;
+    background-position: center;
+    transition: all ease 2s;
+   
 }
 
 #project_section_title{
@@ -17,6 +21,7 @@
     /* border: 1px solid green; */
     text-align: center;
     margin-top: 40px;
+    color: aliceblue;
 }
 
 #projects {
@@ -37,6 +42,8 @@
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
+    background-color: rgb(216, 231, 226);
+    /* color: #ffffffe0; */
     /* padding: 10px; */
     /* height: auto; */
     
