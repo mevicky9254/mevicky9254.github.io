@@ -404,7 +404,7 @@
 {
     color: #e4405f;
 } */
-#resume-button-1,.resumeDownloadButton{
+#resume-button-view,.resumeDownloadButton{
     width: 200px;
     padding: 13px 0;
     text-align: center;
@@ -449,7 +449,7 @@
     bottom: 0;
     transition: 0.5s;
 }
-#resume-button-1:hover .span{
+#resume-button-view:hover .span{
     width: 100%;
 }
 

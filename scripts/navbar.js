@@ -31,10 +31,10 @@ let nav = document.querySelector('#nav-menu');
 
 
 
-//  const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
+//  const resumeBtnOnNavbar = document.querySelector("#resume-button-1");
  
 //  resumeBtnOnNavbar.onclick = () =>{
-//     //  window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
+//      window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
 //  }
 //  resumeBtn.onclick = ()=>{
 //     //  window.open("https://drive.google.com/file/d/1To-qsMGIXGxkOBYTXDu5_K7YtaVOJcEl/view?usp=share_link", '_blank', 'noreferrer');
