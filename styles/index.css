@@ -116,6 +116,14 @@
 /* .menu-list li a:hover{
     color: #009688;
 } */
+
+
+#resume-button-1{
+
+    border: none;
+    background-color:none;
+
+}
 .icon{
     color: #ffffff;
     font-size: 20px;
