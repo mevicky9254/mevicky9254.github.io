@@ -79,7 +79,7 @@ color: rgba(3, 3, 155, 0.671);
         #about{
             height: 900;
             /* border: 1px solid yellow; */
-            border: 1px solid rgb(216, 231, 226);;
+            /* border: 1px solid rgb(216, 231, 226);; */
             background-color: rgb(216, 231, 226);
             /* border: 1px solid red; */
         }
@@ -148,7 +148,7 @@ color: rgba(3, 3, 155, 0.671);
              }
     }
 
-    @media all and (min-width: 600px) and (max-width: 867px) {
+    @media all and (min-width: 756px) and (max-width: 867px) {
 
 
         #profile-image-section>img{
@@ -172,7 +172,7 @@ color: rgba(3, 3, 155, 0.671);
         height: auto;
         width: 30%;
         margin: auto;
-        margin-left: 450px;
+        margin-left: 480px;
         margin-bottom: -50px;
         /* margin-right: 20px; */
         z-index: 1;
@@ -212,6 +212,21 @@ color: rgba(3, 3, 155, 0.671);
 
     }
 
+    @media all and (min-width: 600px) and (max-width: 756px) {
+
+        #profile-image-section{
+            height: auto;
+            width: 30%;
+            margin: auto;
+            margin-left: 440px;
+            margin-bottom: -15px;
+            /* margin-right: 20px; */
+            z-index: 1;
+            /* background-color:white */
+        }
+
+    }
+
 
     @media all and (min-width: 300px) and (max-width: 450px) {
 
@@ -237,9 +252,9 @@ color: rgba(3, 3, 155, 0.671);
         /* height: auto; */
         width: 100%;
         margin: auto;
-         margin-top: 40px; 
+         margin-top: 50px; 
         
-        margin-left: 200px;
+        margin-left: 175px;
        
         z-index: 1;
       
