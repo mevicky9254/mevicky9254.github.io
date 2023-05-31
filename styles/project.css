@@ -51,12 +51,36 @@
 .project-card>img{
     width: 95%;
     margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3px solid grey;
 }
-.project-card>p{
-margin-top: 10px;
-color: rgb(5, 5, 7);
-font-family:sans-serif;
-}
+
+
+.project-card > p {
+    margin-top: 10px;
+    color: rgb(5, 5, 7);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .project-card > p:hover {
+    color: rgb(7, 71, 145);
+  }
+  
+
+  .project-card>.project-tech-stack{
+
+    font-size: 18px;
+    color: rgb(7, 71, 145);
+    font-weight: bold;
+
+  }
 
 .project-card>h2{
 margin-top: 10px;
