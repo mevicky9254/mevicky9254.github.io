@@ -1,10 +1,10 @@
-// Get the form element
-
-emailjs.init("S7BGds-cbsmFn6-AJ");
 const form = document.getElementById('contact-form');
 
-// Add a submit event listener to the form
-form.addEventListener('submit', function(event) {
+if (window.emailjs) {
+  emailjs.init("S7BGds-cbsmFn6-AJ");
+}
+
+form?.addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission
 
   // Get the form data
@@ -15,6 +15,11 @@ form.addEventListener('submit', function(event) {
   // Check if the form data is valid
   if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
     alert('Please fill in all fields.');
+    return;
+  }
+
+  if (!window.emailjs) {
+    window.location.href = `mailto:vikkichoudhary6528@gmail.com?subject=Portfolio message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message + '\n\nFrom: ' + email)}`;
     return;
   }
 
