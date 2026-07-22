@@ -57,6 +57,41 @@ body.dark-mode {
     radial-gradient(circle at 88% 82%, rgba(248, 201, 95, 0.18), transparent 18rem);
 }
 
+body.dark-mode .nav-link {
+  color: #d8e8ec;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #ffffff;
+  background: #1f363d;
+}
+
+body.dark-mode .nav-cta,
+body.dark-mode .primary-button,
+body.dark-mode #contact-form button {
+  color: #081316;
+  background: var(--amber);
+}
+
+body.dark-mode .secondary-button,
+body.dark-mode .theme-toggle,
+body.dark-mode .menu-btn,
+body.dark-mode .cancel-btn {
+  color: #f4fbfb;
+}
+
+body.dark-mode .profile-orbit::before {
+  border-color: rgba(53, 210, 200, 0.8);
+  box-shadow: 0 0 34px rgba(53, 210, 200, 0.18);
+}
+
+body.dark-mode .orbit-tag {
+  border-color: rgba(53, 210, 200, 0.62);
+  background: rgba(18, 31, 37, 0.94);
+  color: #f4fbfb;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.34);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -331,12 +366,11 @@ img {
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  border: 1px solid rgba(16, 33, 43, 0.08);
-  border-radius: 8px;
-  background:
-    linear-gradient(145deg, var(--hero-surface) 0%, var(--hero-soft) 50%, var(--hero-warm) 100%);
-  box-shadow: 0 30px 90px rgba(16, 33, 43, 0.16);
-  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
 }
 
 .profile-orbit::before {
